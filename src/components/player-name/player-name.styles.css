@@ -1,0 +1,14 @@
+.player-name {
+  flex-grow: 1;
+  padding: 20px 10px 10px 10px;
+}
+.remove-player {
+  visibility: hidden;
+  margin-right: 10px;
+  color: #e57373;
+  cursor: pointer;
+}
+
+.player-name:hover .remove-player {
+  visibility: visible;
+}

@@ -1,0 +1,29 @@
+.counter-action {
+  border: none;
+  font-weight: bold;
+  color: #fafafa;
+  display: block;
+  padding: 20px 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.counter-action.increment {
+  background: #66bb6a;
+}
+
+.counter-action.increment:hover {
+  background: #549d59;
+  cursor: pointer;
+}
+
+.counter-action.decrement {
+  background: #ef5350;
+}
+
+.counter-action.decrement:hover {
+  background: #c44442;
+  cursor: pointer;
+}
